@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">DataWedge Background Scanning</string>
+    <string name="dw_scan_action">com.zebra.backgroundscan.ACTION</string>
+    <string name="datawedge_intent_key_data">com.symbol.datawedge.data_string</string>
+
+</resources>
