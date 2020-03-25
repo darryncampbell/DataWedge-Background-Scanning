@@ -36,6 +36,7 @@ public class ListeningService extends IntentService {
         if (intent != null && intent.getAction().equalsIgnoreCase(getResources().getString(R.string.dw_scan_action))) {
             String scanData = intent.getStringExtra(getResources().getString(R.string.datawedge_intent_key_data));
 
+            //  Note that the notification is unlikely to be seen since the scan is processed so quickly but this step is necessary on O+
             createNotificationChannel();
             Intent notificationIntent = new Intent(this, MainActivity.class);
             PendingIntent pendingIntent = PendingIntent.getActivity(this,
