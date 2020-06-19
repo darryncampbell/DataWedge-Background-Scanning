@@ -8,7 +8,7 @@ Although not common, some customers targeting Zebra Android mobile computers nee
 ## Set Wake-up Sources
 In order to wake up the device from a standby mode when the trigger button is pressed, you need to set the wake-up sources.  The wake-up sources can be configured using StageNow and the [MX PowerManager](https://techdocs.zebra.com/mx/powermgr/#wake-up-method) but be aware that, at the time of writing, this capability requires the relative recent MX version 9.2+ which is not available on all devices. 
 
-If your device is in standby, you can (of course) press the power key to wake it up, after which the scan can be captured even when the keyguard (password screen) is shown.
+If your device is in standby, you can also (of course) press the power key to wake it up, after which the scan can be captured even when the keyguard (password screen) is shown.
 
 ## Approach overview
 1.  Use DataWedge to start an Android service whenever a barcode is scanned.  Unlike a broadcast message the receiving application does not need to be in the foreground.
