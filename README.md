@@ -1,3 +1,6 @@
+*Please be aware that this application / sample is provided as-is for demonstration purposes without any guarantee of support*
+=========================================================
+
 # DataWedge Background Scanning
 Demo to show scanning with DataWedge when the device screen is off or the app is in the background
 
